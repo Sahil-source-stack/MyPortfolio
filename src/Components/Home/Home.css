@@ -1,0 +1,62 @@
+.main-img{
+  margin-left: 6%;
+  margin-top: 8%;
+
+}
+.image-fluid{
+  width: 65%;
+  height: 42vh;
+  border: 2px solid white;
+  border-radius: 80px;
+  animation: floatImage 2s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-2.4rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.home-heading1{
+  color:aqua;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+.home-heading2{
+  color:yellow;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.home-heading3{
+  color:aquamarine;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#tagline{
+  margin-left: 14%;
+  margin-top: 6%;
+}
+.typing{
+  font-style: italic;
+  color: blueviolet;
+  font-weight: bold;
+}
+.name{
+  font-style: italic;
+  color:chartreuse;
+  font-weight: bold;
+
+}

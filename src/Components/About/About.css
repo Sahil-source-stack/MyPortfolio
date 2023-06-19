@@ -1,0 +1,24 @@
+.about-me{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: italic;
+}
+.card-body{
+  background-color: black;
+  color:whitesmoke;
+  font-weight: 500;
+
+}
+.btn{
+  background-color: navy;
+  color: white;
+  font-weight: 700;
+}
+.hr{
+  color: white;
+}

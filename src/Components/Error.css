@@ -1,0 +1,28 @@
+.error-head {
+  text-align: center;
+  color: orangered;
+  margin-top: 10%;
+  font-weight: bold;
+
+}
+
+.error-msg {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.error-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5%;
+  background-color: navy;
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  width: 10%;
+
+}
